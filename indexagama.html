@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Tugas Pendidikan Agama Islam</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #FFF9E6;
+    padding: 60px 20px;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #5A4A00;
+    margin-bottom: 8px;
+}
+
+.header p {
+    font-size: 16px;
+    color: #8A6F00;
+}
+
+/* CARD IDENTITAS */
+.card {
+    background: #FFFFFF;
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    margin-bottom: 70px;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #5A4A00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+td {
+    padding: 12px 0;
+}
+
+.label {
+    width: 190px;
+    font-weight: 600;
+    color: #6D5800;
+}
+
+/* DAFTAR TUGAS */
+.section {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5A4A00;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tugas-card {
+    background: #ffffff;
+    padding: 25px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.tugas-card:hover {
+    transform: translateY(-5px);
+}
+
+.tugas-card h3 {
+    margin-bottom: 10px;
+    color: #5A4A00;
+}
+
+.tugas-card p {
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: #555;
+}
+
+.tugas-card a {
+    text-decoration: none;
+    background-color: #FFD54F;
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: #333;
+    font-weight: 600;
+}
+
+.tugas-card a:hover {
+    background-color: #f5c842;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 14px;
+    color: #8A6F00;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Portal Tugas Pendidikan Agama Islam</h1>
+    <p>Teknik Informatika</p>
+</div>
+
+<div class="card">
+    <h2>Identitas Mahasiswa</h2>
+
+    <table>
+        <tr>
+            <td class="label">Nama</td>
+            <td>: Dede Syifa Sifriani</td>
+        </tr>
+        <tr>
+            <td class="label">NIM</td>
+            <td>: 312310372</td>
+        </tr>
+        <tr>
+            <td class="label">Program Studi</td>
+            <td>: Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td class="label">Mata Kuliah</td>
+            <td>: Pendidikan Agama Islam</td>
+        </tr>
+        <tr>
+            <td class="label">Dosen Pengampu</td>
+            <td>: M ZUBAIR ABDURROHMAN, S.T., M.T.</td>
+        </tr>
+    </table>
+</div>
+
+<div class="section">
+    <h2>Daftar Tugas</h2>
+
+    <div class="card-container">
+
+        <div class="tugas-card">
+            <h3>Tugas 1</h3>
+            <p>Judul Tugas Pertama</p>
+            <a href="#">Lihat Tugas</a>
+        </div>
+
+        <div class="tugas-card">
+            <h3>Tugas 2</h3>
+            <p>Judul Tugas Kedua</p>
+            <a href="#">Lihat Tugas</a>
+        </div>
+
+        <div class="tugas-card">
+            <h3>Tugas 3</h3>
+            <p>Judul Tugas Ketiga</p>
+            <a href="#">Lihat Tugas</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+    © 2026 - Portal Tugas Agama Islam
+</div>
+
+</body>
+</html>
